@@ -1,0 +1,32 @@
+{
+  "name": "exela-task-backend",
+  "version": "1.0.0",
+  "description": "Exela hiring challenge task backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "devStart": "nodemon app.js"
+  },
+  "engines": {
+    "node": "16.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DKdEviL/exela-task-backend.git"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "node.js": "0.0.1-security",
+    "nodemon": "^2.0.19"
+  },
+  "author": "Deepak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DKdEviL/exela-task-backend/issues"
+  },
+  "homepage": "https://github.com/DKdEviL/exela-task-backend#readme"
+}
