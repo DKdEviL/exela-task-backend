@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const billsSchema = new mongoose.Schema({
     invoiceId: {
         type: String,
-        required: true
+        required: false
     },
     billNo: {
         type: String,
